@@ -36,6 +36,7 @@ function loadGame(){
     let flippedCards = [];//to keep array of first and second card that was selected to check if they match
     let matched = 0; //track how many has been matched. He needs to match 8 cards to move to next page
 
+    gameBoard.innerHTML = '';
     cardImages.forEach(src => {
         //for each image, create a card
         let card = document.createElement('div');
