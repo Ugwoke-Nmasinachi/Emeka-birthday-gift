@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--css Links-->
+    <link rel="stylesheet" href="/css/card.css">
+    <link rel="stylesheet" href="/css/navbar.css">
+
+    <title>Card</title>
+</head>
+<body>
+    <nav>
+        <div class="profilePictureBox">
+            <img src="/assets/Images/img18.jpg" alt="Emeka's profile picture" id="profilePic">
+            <p><span style="color: #ffa500; font-size: 25px;">Y</span>ankee</p>
+        </div>
+        <div class="navBar">
+            <a href="/index.html">Home</a>
+            <a href="/html/gameToCard.html">Card</a>
+            <a href="/html/portfolio.html">Porfolio</a>
+        </div>
+    </nav>
+
+    <main>
+        <div class="wrapper">
+            <div class="requestToPlayPage" >
+                <p>To view your birthday card. You gats play a game. Are you interested?</p>
+                <button><a href="/index.html">Not interested</a></button>
+                <button id="playGameBtn">Play game</button>
+            </div>
+            <div class="gamePage">
+                <h2>Memory Card - Match all cards</h2>
+                <div class="gameBoard"></div>
+            </div>
+            <div class="gameResultPage">
+                <p>You win! Click "View Card"</p>
+                <button id="playAgain">Play Again</button>
+                <button id="viewCard">View Card</button>
+            </div>
+            <div class="birthdayCardPage">
+                <h2>Y<span style="color: #000000;">ankee</span></h2>
+                <p id="message"></p>
+                <p style="text-align: right;">-From Nma</p>
+            </div>
+        </div>
+    </main>
+
+    <script src="/js/card.js"></script>
+</body>
+</html>

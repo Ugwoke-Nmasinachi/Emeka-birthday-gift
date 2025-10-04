@@ -1,0 +1,14 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+.wrapper{
+    border: 1px solid #ffa500;
+    width: 450px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 4px 4px 10px #ffa500;
+    background-color: #ffa6007c;
+}
